@@ -235,6 +235,7 @@ a {
 
 .tabs {
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .tabs .container {
@@ -267,39 +268,44 @@ a {
 	color: white;
 }
 
+.tab-content .left-col {
+	width: 40%;
+	float: left;
+	padding-right: 20px;
+} 
+.tab-content .right-col {
+	width: 60%;
+	float: right;
+	padding-left: 20px;
+} 
+
 .tab-content .image-wrap {
-	border-radius: 3px;
+	margin-bottom: 40px;
+	border-radius: 10px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .tab-content .image-wrap:hover {
 
 }
-.tab-content .image-wrap:nth-child(2n) {
-	width: 60%;
-	float: right;
-	padding-right: 20px;
-}
 
-.tab-content .image-wrap:nth-child(2n+1) {
-	width: 40%;
-	float: left;
-	padding-left: 20px;
-}
+.tab-content .left-col .image-wrap:first-child {
+	height: 302px;
+	background-image: url("../img/multiple-items.png");
 
-.tab-content .image-wrap:first-child {
-   background-image: url("../img/multiple-items.png");
-   height: 302px;
 }
-.tab-content .image-wrap:nth-child(2) {
-	background-image: url("../img/identit-visuelle.png");
-	height: 438px;
-}
-.tab-content .image-wrap:nth-child(3){
-	background-image: url("../img/place-me-inside-psd.png");
+.tab-content .left-col .image-wrap:last-child {
 	height: 486px;
+	background-image: url("../img/place-me-inside-psd.png");
+
 }
-.tab-content .image-wrap:last-child {
-	background-image: url("../img/prototype.png");
+.tab-content .right-col .image-wrap:first-child {
+	height: 438px;
+	background-image: url("../img/identit-visuelle.png");
+
+}
+.tab-content .right-col .image-wrap:last-child {
 	height: 350px;
+	background-image: url("../img/prototype.png");
+
 }
