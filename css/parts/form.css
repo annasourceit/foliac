@@ -1,0 +1,33 @@
+/*Form*/
+.form {
+
+}
+
+.form__text--name {
+	width: 50%;
+	float: left;
+}
+
+.form__text--email {
+	width: 50%;
+	float: right;
+}
+.form__text--massege {
+	clear: both;
+}
+
+.form__btn {
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	background-color: #48bf72;
+	color: #ffffff;
+	outline: none;
+	border: none;
+
+}

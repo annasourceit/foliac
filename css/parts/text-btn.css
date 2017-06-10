@@ -1,0 +1,45 @@
+/*Text and button section*/
+.text-btn {
+	min-height: 500px;
+	background-image: url('../../img/men-computer.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #3c4955;
+
+
+}
+
+.text-btn__info {
+	width: 50%;
+	padding-right: 13.5%;
+	font-size: 30px;
+	float: right;
+	clear: left;
+	color: white;
+
+}
+
+.text-btn__info--v-align {
+	display: table-cell;
+	height: 500px;
+	vertical-align: middle;
+}
+
+.title {
+
+}
+
+.text-btn__subtitle {
+	font-size: 22px;
+	font-weight: 400px;
+
+}
+
+.text-btn__text {
+	height: 140px;
+	overflow: hidden;
+	line-height: 25px;
+	font-size: 16px;
+
+}

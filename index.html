@@ -11,6 +11,11 @@
 		<script rel="text/script" src="js/script.js"></script>
 	</head>
 	<body>
+
+<!-- 	<style>
+		@import 'css/btn.css';
+	</style> -->
+
 		<header class="site-header">
 			<div class="container">
 				<a class="logo" href="index.html">
@@ -38,52 +43,147 @@
 						</li>
 					</ul>
 				</nav>
+
 				<div class="clearfix"></div>
+
 				<div class="info">
-					<h1 class="title">voici votre prochain portfolio</h1>
-					<h2 class="subtitle">un template psd simple et gratuit</h2>
-					<a href="#" class="btn">mes travaux</a>
-				</div>
+					<h1 class="info__title">voici votre prochain portfolio</h1>
+					<h2 class="info__subtitle">un template psd simple et gratuit</h2>
+					<div class="btn-wrap btn-wrap--centr">
+						<a href="#" class="btn-wrap__btn">mes travaux</a>
+					</div>
+				</div>				
 			</div>
 			<!-- .container	 -->
 		</header>
 		<main>
 			<!-- Tabs  -->
 			<div class="tabs">
-				<div class="container">
+				<div class="container tabs__container">
 				
 					<ul class="tabs-menu clear">
-						<li>
-							<a href="#">Tous les projets</a>
+						<li class="tabs-menu__item">
+							<a  class="tabs-menu__link tabs-menu__link--activ" href="#">Tous les projets</a>
 						</li>
-						<li>
-							<a href="#">Webdesign</a>
+						<li class="tabs-menu__item">
+							<a  class="tabs-menu__link" href="#">Webdesign</a>
 						</li>
-						<li>
-							<a href="#">UI/UX design</a>
+						<li class="tabs-menu__item">
+							<a  class="tabs-menu__link" href="#">UI/UX design</a>
 						</li>
-						<li>
-							<a href="#">Illustration</a>
+						<li class="tabs-menu__item">
+							<a  class="tabs-menu__link" href="#">Illustration</a>
 						</li>
-						<li>
-							<a href="#">Motion design</a>
+						<li class="tabs-menu__item">
+							<a  class="tabs-menu__link" href="#">Motion design</a>
 						</li>
 					</ul>
 
 					<div class="tab-content clear">
-						<div class="left-col">
-						<div class="image-wrap"></div>
-						<div class="image-wrap"></div>
+
+						<div class="tab-content__left-col">
+							<div class="tab-content__image-wrap tab-content__image-wrap--first">
+								<div class="tab-content__text-wrap"><!-- wrapper for horizontal align -->
+									<div class="tab-content__text tab-content__text--first"><!-- table-cell for vertical align -->
+										<h2 class="title">Forest app</h2>
+										<p class="tab-content__subtitle">application mobile</p>
+									</div>
+								</div>
+							</div>
+
+						<div class="tab-content__image-wrap tab-content__image-wrap--second">
+							<div class="tab-content__text-wrap"><!-- wrapper for horizontal align -->
+								<div class="tab-content__text tab-content__text--second"><!--  table-cell for vertical align -->
+									<h2 class="title">Forest app</h2>
+									<p class="tab-content__subtitle">application mobile</p>
+								</div>
+							</div>
 						</div>
 
-						<div class="right-col">
-						<div class="image-wrap"></div>
-						<div class="image-wrap"></div>
-						</div>	
 					</div>
+
+						<div class="tab-content__right-col">
+
+							<div class="tab-content__image-wrap tab-content__image-wrap--third">
+								<div class="tab-content__text-wrap"><!-- wrapper for horizontal align -->
+									<div class="tab-content__text tab-content__text--third"><!--  table-cell for vertical align -->
+										<h2 class="title">Forest app</h2>
+										<p class="tab-content__subtitle">application mobile</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-content__image-wrap tab-content__image-wrap--fourth">
+								<div class="tab-content__text-wrap"><!-- wrapper for horizontal align -->
+									<div class="tab-content__text tab-content__text--fourth"><!--  table-cell for vertical align  -->
+										<h2 class="title">Forest app</h2>
+										<p class="tab-content__subtitle">application mobile</p>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+
+				<!-- 	</div> -->
 
 				</div> <!-- .container -->
 			</div> <!-- .tabs -->
+
+
+		<!-- Section with text and button -->
+			<section class="text-btn">
+
+				<div class="container clear">
+				<div class="text-btn__info">
+				<div class="text-btn__info--v-align">
+
+					<h1 class="title">Michel Dupont</h1>
+					<h2 class="text-btn__subtitle">Webdesigner, illustrateur, auteur</h2>
+					<p class="text-btn__text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio obcaecati voluptas nobis doloremque ut ullam ratione voluptates iure incidunt, eius, minima asperiores excepturi distinctio a veniam nemo, saepe qui dicta! Veniam nobis, expedita cum debitis amet assumenda ut voluptatum, aliquam natus hic quam accusantium, vel consequuntur voluptatem vitae, quo ipsum?
+					</p>
+
+					<div class="btn-wrap btn-wrap--left">
+						<a href="#" class="btn-wrap__btn btn-wrap__btn--darck" >me contacter</a>
+					</div>
+				
+				</div>
+				</div> <!-- .text-btn__info -->
+
+				
+				</div><!-- .container -->
+
+			</section>
+
+			<section class="contact-form">
+				<div class="container container--700-width">
+				<h1 class="contact-form__title">Me contacter</h1>
+					
+					<form action="" class="form ">
+					<p class="form__text form__text--name">
+					<input type="text" name="Name">
+					</p>
+
+					<p class="form__text form__text--email">
+					<input type="email">
+					</p>
+
+					
+
+					<p class="form__text form__text--massege">
+					<textarea name="Message" id="" ></textarea>
+					</p>
+
+					
+					<input class="form__btn" type= "submit" value="submit">
+
+						
+					</form>
+
+				</div>
+			</section>
+
+
 		</main>
 		
 	</body>
