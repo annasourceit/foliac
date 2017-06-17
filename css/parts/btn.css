@@ -8,14 +8,14 @@
 .btn-wrap__btn {
 	width: auto;
 	min-width: 138px;
-	height: auto;
+	height: 39px;
 	display: inline-block;
 	padding: 15px 20px;
 	color: #48bf72;
 	font-family: Lato;
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 25px;
+	line-height: 5px;
 	text-transform: uppercase;
 	border-radius: 3px;
 	border: 2px solid #48bf72;
