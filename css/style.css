@@ -167,6 +167,17 @@
 	padding-bottom: 50px;
 }
 
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+	.info__title {
+		font-size: 30px;
+
+	}
+	.info__subtitle {
+		font-size: 14px;
+
+	}
+}
+
 /*Button*/
 
 /*перенесли в отдельный файл btn.css*/
