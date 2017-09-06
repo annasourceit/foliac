@@ -9,6 +9,8 @@
 
 
 /*Header*/
+
+
 .site-header {
 	padding: 36px;
 	height: 100vh; /*100% окна браузера*/
@@ -20,6 +22,12 @@
 	position: relative;
 	background-attachment: fixed;
 	/*background-color: rgba(60, 73, 85, 0.86);*/
+}
+
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+  	.site-header {
+  		height: unset;
+  	} 
 }
 
 /*.site-header:before {
@@ -72,6 +80,7 @@
 @media only screen and (max-width: 991px) {
   .menu-icon {
   	display: block;
+
   /*	height: 110px;
 	line-height: 110px;*/
   }
@@ -210,6 +219,11 @@
 	float: left;
 	padding: 0 8px 16px;	
 }
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+  	.tabs-menu__item {
+  		float: unset;
+  	} 
+}
 
 
 .tabs-menu__link {
@@ -243,6 +257,19 @@
 	float: right;
 	padding-left: 20px;
 } 
+
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+  	.tab-content__left-col {
+		width: 100%;
+		float: unset;
+		padding: unset;
+	} 
+	.tab-content__right-col {
+		width: 100%;
+		float: unset;
+		padding: unset;
+	} 
+}
 
 .tab-content__image-wrap {
 	position: relative;
@@ -296,6 +323,41 @@
 
 }
 
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+	.tab-content__image-wrap {
+		margin-bottom: unset;
+	}
+
+	.tab-content__image-wrap--first {
+		max-width: 100%
+		height: 50vh;
+		object-fit: cover;
+		margin: 10px;
+
+	}
+	.tab-content__image-wrap--second {
+		max-width: 100%
+		height: 50vh;
+		object-fit: cover;
+		margin: 10px;
+
+
+	}
+	.tab-content__image-wrap--third {
+		max-width: 100%
+		height: 50vh;
+		object-fit: cover;
+		margin: 10px;
+
+
+	}
+	.tab-content__image-wrap--fourth {
+		max-width: 100%
+		height: 50vh;
+		object-fit: cover;
+		margin: 10px;
+	}
+}
 
 /*Image Text*/
 .tab-content__text-wrap {
@@ -331,6 +393,7 @@
 .tab-content__text--fourth {
 	height: 350px;/*for align*/
 }
+
 
 .title {
 	font-size: 30px;
