@@ -41,5 +41,9 @@
 	.footer__social {
 		float: unset;
 	}
+	.copyright__text {
+		font-size: 12px;
+
+	}
 
 }
